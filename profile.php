@@ -22,6 +22,9 @@
         <a href="profile.php"> Profile Info </a>
       </li>
       <li>
+        <a href="todo.php"> To-Do List </a>
+      </li>
+      <li>
         <a href="login.php"> Log Out </a>
       </li>
     </ul>

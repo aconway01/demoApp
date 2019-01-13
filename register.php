@@ -147,8 +147,8 @@
       if ($submitReady == 1)
       {
         // Create the sql query
-        $sql = "INSERT INTO users(first_name, last_name, email, salt, password)
-        VALUES ('$firstname', '$lastname', '$email', '$salt_val', '$hashpassword');";
+        $sql = "INSERT INTO users(first_name, last_name, email, todo, salt, password)
+        VALUES ('$firstname', '$lastname', '$email', '', '$salt_val', '$hashpassword');";
 
         // Add the user
         $result = $mysqli->query($sql);

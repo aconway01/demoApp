@@ -12,6 +12,7 @@
     $first_name = $_SESSION['first_name'];
     $last_name = $_SESSION['last_name'];
     $email = $_SESSION['email'];
-    $migrant_id = $_SESSION['user_id'];
+    $todo = $_SESSION['todo'];
+    $user_id = $_SESSION['user_id'];
   }
 ?>

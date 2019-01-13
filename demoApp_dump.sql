@@ -15,6 +15,7 @@ CREATE TABLE `users` (
   `first_name` varchar(64) NOT NULL,
   `last_name` varchar(64) NOT NULL,
   `email` varchar(64) NOT NULL,
+  `todo` text NOT NULL,
   `salt` varchar(128) NOT NULL,
   `password` varchar(64) NOT NULL,
 

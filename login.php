@@ -63,6 +63,7 @@
           $_SESSION['first_name'] = $row['first_name'];
           $_SESSION['last_name'] = $row['last_name'];
           $_SESSION['email'] = $row['email'];
+          $_SESSION['todo'] = $row['todo'];
           $_SESSION['user_id'] = $row['user_id'];
           $_SESSION['logged_in'] = true;
           //redirect to the main page
